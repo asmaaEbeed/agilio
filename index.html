@@ -40,7 +40,7 @@
       }
 
       .font-size-small {
-        font-size: 12px;
+        font-size: 12px !important;
         line-height: 16px;
       }
       .top-box-shadow {
@@ -86,7 +86,7 @@
         }
 
         .font-size-small {
-          font-size: 11px;
+          font-size: 11px !important;
           line-height: 15px;
         }
         .res-padding-btn {
@@ -120,7 +120,7 @@
         }
 
         .font-size-small {
-          font-size: 10px;
+          font-size: 10px !important;
           line-height: 14px;
         }
         .res-padding-btn {
@@ -154,7 +154,7 @@
         }
 
         .font-size-small {
-          font-size: 9px;
+          font-size: 9px !important;
           line-height: 13px;
         }
         .res-padding-btn {
@@ -204,17 +204,17 @@
               <!-- <td style="width: 100%;">
                 <img src="img2/Agilio-Team-1.jpg" alt="vaccinated" style="width: 200%; margin: auto;" />
             </td> -->
-            <td
-            style="
-                  width: 100%;
-                  "
-              >
-              <a href="https://agiliosoftware.com/" target="_blank" style="text-decoration: none;">
-              <img
-                  src="img/banner.jpg"
-                  alt="Agilio"
-                  style="margin: auto; width: 100%"
-                />
+              <td style="width: 100%">
+                <a
+                  href="https://agiliosoftware.com/"
+                  target="_blank"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="img/banner.jpg"
+                    alt="Agilio"
+                    style="margin: auto; width: 100%"
+                  />
                   <!-- <table
                     style="
                       background-color: #484d61;
@@ -275,7 +275,7 @@
                     </td>
                   </table> -->
                 </a>
-                </td>
+              </td>
             </tr>
 
             <tr style="background-color: #3b4050">
@@ -481,7 +481,7 @@
               <td>
                 <table style="margin-top: 10px">
                   <tr style="background-color: #3b4050">
-                    <td style="padding: 0 35px 25px 35px">
+                    <td style="padding: 0 35px 25px 35px; text-align: center">
                       <p
                         style="
                           color: #fff;
@@ -521,7 +521,7 @@
               <td>
                 <table>
                   <tr>
-                    <td style="width: 35%">
+                    <td style="width: 35%; text-align: center;">
                       <img
                         src="img/logo-Reversed.png"
                         alt="Agilio"
@@ -529,47 +529,61 @@
                       />
                     </td>
                     <td style="text-align: left; width: 65%">
-                      <p
-                        class="font-size-small"
-                        style="padding-top: 10px; margin-top: 15px"
-                      >
-                        <img
-                          src="img/icon-whats.png"
-                          alt="whatsApp"
-                          style="width: 15px"
-                        />
-                        <a
-                          href="tel:0044 3301 659712"
-                          style="text-decoration: none; color: #fff"
-                          >+44 (0) 3301 659712</a
-                        >
-                      </p>
-                      <p class="font-size-small">
-                        <img
-                          src="img/icon-email.png"
-                          alt="mail"
-                          style="width: 15px"
-                        />
-                        <a
-                          href="mailto:info@agiliosoftware.com"
-                          style="text-decoration: none; color: #fff"
-                        >
-                          info@agiliosoftware.com
-                        </a>
-                      </p>
-                      <p class="font-size-small">
-                        <img
-                          src="img/icon-website.png"
-                          alt="website"
-                          style="width: 15px"
-                        />
-                        <a
-                          href="https://agiliosoftware.com/"
-                          target="_blank"
-                          style="text-decoration: none; color: #fff"
-                          >https://agiliosoftware.com/</a
-                        >
-                      </p>
+                      <table>
+                        <tr>
+                          <td style="padding: 5px;">
+                            <a
+                              class="font-size-small"
+                              href="tel:0044 3301 659712"
+                              style="text-decoration: none; color: #fff"
+                            >
+                              <img
+                                src="img/icon-whats.png"
+                                alt="whatsApp"
+                                style="width: 15px"
+                              />
+                              <span>+44 (0) 3301 659712</span></a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  style="padding: 5px;">
+                            
+                            <a class="font-size-small"
+                              href="mailto:info@agiliosoftware.com"
+                              style="text-decoration: none; color: #fff"
+                            >
+                            <img
+                              src="img/icon-email.png"
+                              alt="mail"
+                              style="width: 15px"
+                            />
+                              <span>info@agiliosoftware.com</span>
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="padding: 5px;">
+                            <a
+                              href="https://agiliosoftware.com/"
+                              target="_blank"
+                              style="
+                                text-decoration: none;
+                                color: #fff;
+                                display: block;
+                              "
+                              class="font-size-small"
+                            >
+                              <img
+                                src="img/icon-website.png"
+                                alt="website"
+                                style="width: 15px"
+                              />
+                              <span>https://agiliosoftware.com/</span></a
+                            >
+                          </td>
+                        </tr>
+                      </table>
                     </td>
                   </tr>
                 </table>
